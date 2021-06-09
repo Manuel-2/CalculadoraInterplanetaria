@@ -1,4 +1,4 @@
-// 0 for eathr, 1 mars, 2 moon, 3 jupiter
+// 0 for earth, 1 for mars, 2 for moon, 3 for jupiter
 const GRAVITYS = [9.8, 3.7, 1.62, 24.7];
 
 function getData() {

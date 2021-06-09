@@ -102,6 +102,10 @@ hr {
     color: var(--principal-color);
 }
 
+a{
+    color: var(--principal-color);
+}
+
 @media (max-width: 560px){
     main{
         padding: 0;
@@ -113,4 +117,3 @@ hr {
         border-radius: 0;
     }
 }
-
