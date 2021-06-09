@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="mainSection">
+        <div class="card">
+
+            <div class="cardHeader">
+                <h2>Calculadora de peso interplanetaria</h2>
+                <p>Ingresa tu peso y seleciona su equivalete en algún planeta</p>
+                <hr>
+            </div>
+
+            <form action="" class="cardForm">
+
+                <div class="formElement">
+                    <label for="weightInput">Ingresa tu peso</label>
+                    <input class="input" type="number" id="weightInput">
+                </div>
+
+                <div class="formElement">
+                    <label for="planetsSelection">Seleciona un planeta</label>
+                    <select class="input" name="planets" id="planetsSelection">
+                        <option value="mars">Marte</option>
+                        <option value="moon">Luna</option>
+                        <option value="jupiter">Júpiter</option>
+                    </select>
+                </div>
+                
+                <button class="formElement btn-grad" type="button" name="" id="sendButton" onclick="getData()">Calcular</button>
+
+            </form>
+            <hr>
+            <div>
+                <h3>Resultado:</h3>
+                <p id="resultOutput"></p>
+            </div>
+
+        </div>
+    </main>
+    <script src="./code.js"></script>
+</body>
+</html>
